@@ -1,0 +1,62 @@
+<app-navbar></app-navbar>
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Your Appointments</h2>
+
+  <div class="row">
+    <!-- Loop through appointmentStatus and display each appointment in a card -->
+    <div *ngFor="let appointment of appointmentStatus" class="col-md-4 mb-4">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">{{ appointment.providerName }}</h5>
+          <p class="card-text">
+            <strong>Status:</strong> {{ appointment.status }} <br />
+            <strong>Appointment Date:</strong>
+            {{ appointment.appointmentDate | date : "fullDate" }} <br />
+            <strong>Appointment Time:</strong>
+            {{ appointment.appointmentTime }} <br />
+            <strong>Chief Complaint:</strong> {{ appointment.chiefComplaint }}
+            <br />
+            <strong>Fees:</strong> {{ appointment.fees | currency }}
+          </p>
+          <div
+            *ngIf="
+              appointment.status == 'scheduled' ||
+              appointment.status == 'Scheduled'
+            "
+            class="status-box bg-warning"
+          >
+            <strong>Status:</strong> {{ appointment.status }} <br />
+          </div>
+          <div
+            *ngIf="appointment.status == 'canceled'"
+            class="status-box bg-danger"
+          >
+            <strong>Status:</strong> {{ appointment.status }} <br />
+          </div>
+
+          <div
+            *ngIf="appointment.status == 'Completed'"
+            class="status-box bg-success"
+          >
+            <strong>Status:</strong> {{ appointment.status }} <br />
+          </div>
+          <!-- Action Buttons -->
+          <!-- <div class="d-flex justify-content-between">
+            <button
+              class="btn btn-primary"
+              (click)="viewAppointment(appointment.appointmentId)"
+            >
+              View
+            </button>
+            <button
+              class="btn btn-danger"
+              (click)="cancelAppointment(appointment.appointmentId)"
+            >
+              Cancel
+            </button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

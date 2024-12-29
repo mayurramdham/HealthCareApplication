@@ -1,0 +1,39 @@
+.navbar {
+  background-color: #f8f9fa; /* Subtle background for elegance */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+.cart-icon {
+  cursor: pointer;
+  position: relative;
+}
+
+.cart-badge {
+  font-size: 0.75rem;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.health-logo {
+  height: 75px;
+  width: 75px;
+  cursor: pointer;
+}

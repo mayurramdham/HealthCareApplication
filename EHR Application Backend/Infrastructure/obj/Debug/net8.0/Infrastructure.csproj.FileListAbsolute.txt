@@ -1,0 +1,163 @@
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Mayur Ramdham\Desktop\SmartData\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\Mayur Ramdham\Desktop\SmartData\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\Mayur Ramdham\Desktop\SmartData\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Mayur Ramdham\Desktop\SmartData\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\Mayur Ramdham\Desktop\SmartData\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\Mayur Ramdham\Desktop\SmartData\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\Mayur Ramdham\Desktop\SmartData\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\Mayur Ramdham\Desktop\SmartData\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\Mayur Ramdham\Desktop\SmartData\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Mayur Ramdham\Desktop\SmartData\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mayur Ramdham\Desktop\SmartData\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Mayur Ramdham\Desktop\SmartData\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Mayur Ramdham\Desktop\SmartData\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Mayur Ramdham\Desktop\SmartData\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
+C:\Users\Mayur Ramdham\Desktop\SmartData\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\Mayur Ramdham\Desktop\SmartData\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\Mayur Ramdham\Desktop\SmartData\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\Mayur Ramdham\Desktop\SmartData\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\Mayur Ramdham\Desktop\SmartData\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\Mayur Ramdham\Desktop\SmartData\SmartData\Assesment\Assesment_8EHR\backend\EHR Application\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhr\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhr\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhr\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhr\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhr\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\Mayur Ramdham\Desktop\EHRApplication\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\mayurramdham\Desktop\EHRApplication\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\mayurramdham\Desktop\EHRApplication\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\mayurramdham\Desktop\EHRApplication\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\mayurramdham\Desktop\EHRApplication\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\mayurramdham\Desktop\EHRApplication\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\mayurramdham\Desktop\EHRApplication\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\mayurramdham\Desktop\EHRApplication\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\mayurramdham\Desktop\EHRApplication\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\mayurramdham\Desktop\EHRApplication\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\mayurramdham\Desktop\EHRApplication\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayurramdham\Desktop\EHRApplication\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\mayurramdham\Desktop\EHRApplication\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\mayurramdham\Desktop\EHRApplication\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\mayurramdham\Desktop\EHRApplication\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\mayurramdham\Desktop\EHRApplication\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\mayurramdham\Desktop\EHRApplication\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\mayurramdham\Desktop\EHRApplication\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\mayurramdham\Desktop\EHRApplication\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\mayurramdham\Desktop\EHRApplication\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\mayurramdham\Desktop\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\mayurramdham\Desktop\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\mayurramdham\Desktop\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\mayurramdham\Desktop\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\mayurramdham\Desktop\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\mayurramdham\Desktop\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\mayurramdham\Desktop\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\mayurramdham\Desktop\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\mayurramdham\Desktop\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\mayurramdham\Desktop\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayurramdham\Desktop\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\mayurramdham\Desktop\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\mayurramdham\Desktop\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\mayurramdham\Desktop\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
+C:\Users\mayurramdham\Desktop\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\mayurramdham\Desktop\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\mayurramdham\Desktop\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\mayurramdham\Desktop\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\mayurramdham\Desktop\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\mayurramdham\Desktop\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\EHRApplication 8\backendEhrWithStripe\backendEhrWithStripe\backendEhrWithStripe\backend\EHR Application\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application Backend\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application Backend\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application Backend\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application Backend\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application Backend\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application Backend\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\Mayur Ramdham\Desktop\SmartDataProjects\SmartData\Assesment\Assesment_8EHR\EHR Application Backend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

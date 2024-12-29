@@ -1,0 +1,332 @@
+<app-navbar></app-navbar>
+<div class="d-flex justify-content-center align-items-center mt-2">
+  <span *ngIf="AppointmentList.length === 0"> No Appointment found </span>
+</div>
+<div class="d-flex justify-content-center align-items-center mt-3">
+  <button
+    *ngIf="currentRole == 'Patient'"
+    routerLink="/org/appointment"
+    class="btn btn-primary"
+  >
+    <i class="bi bi-calendar-plus me-2"></i> Book Appointment
+  </button>
+  <button
+    *ngIf="currentRole == 'Provider'"
+    class="btn btn-primary"
+    routerLink="/org/providerAppointment"
+  >
+    <i class="bi bi-calendar-plus me-2"></i> Book Appointment
+  </button>
+</div>
+<div class="container mt-5" *ngIf="AppointmentList.length != 0">
+  <h2 class="text-center mb-4">Patient Appointment</h2>
+  <div class="table-responsive">
+    <table class="table table-bordered table-hover table-striped shadow-sm">
+      <thead class="table-dark">
+        <tr>
+          <th *ngIf="currentRole == 'Patient'">Provider Name</th>
+          <th *ngIf="currentRole == 'Provider'">Patient Name</th>
+          <th>AppointmentDate</th>
+          <th>AppointmentTime</th>
+          <th>AppointmentStatus</th>
+          <th>AppointmentFees</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let appointment of AppointmentList; let i = index">
+          <td *ngIf="currentRole == 'Patient'">
+            {{ appointment.providerName }}
+          </td>
+          <td *ngIf="currentRole == 'Provider'">
+            {{ appointment.patientName }}
+          </td>
+          <td>{{ appointment.appointmentDate | date : "dd/MM/yyyy" }}</td>
+          <td>{{ appointment.appointmentTime }}</td>
+          <td>{{ appointment.status }}</td>
+          <td>${{ appointment.fees }}</td>
+
+          <td>
+            <button
+              *ngIf="currentRole === 'Patient'"
+              class="btn btn-warning btn-sm me-2"
+              (click)="updateAppointmentModal(appointment)"
+            >
+              <i class="bi bi-pencil"></i> Edit
+            </button>
+            <button
+              class="btn btn-danger btn-sm me-2"
+              (click)="deleteAppointment(appointment.appointmentId)"
+            >
+              <i class="bi bi-trash"></i> Cancel
+            </button>
+            <button
+              *ngIf="currentRole == 'Patient'"
+              class="btn btn-primary btn-sm me-2"
+              (click)="onClickMessage(appointment.patientId)"
+            >
+              <i class="bi bi-chat-dots me-2"></i> Message
+            </button>
+            <button
+              *ngIf="currentRole == 'Provider'"
+              class="btn btn-primary btn-sm me-2"
+              (click)="onClickMessage(appointment.providerId)"
+            >
+              <i class="bi bi-chat-dots me-2"></i> Message
+            </button>
+
+            <button
+              *ngIf="currentRole === 'Provider'"
+              type="button"
+              class="btn btn-sm btn-info"
+              routerLink="/org/bookAppointment"
+              (click)="gotToBooking(appointment.appointmentId)"
+            >
+              <i class="bi bi-eye"></i> Go To Appointment
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!--*********Appointment Details********-->
+<div
+  class="modal fade"
+  id="viewProductModal"
+  tabindex="-1"
+  aria-labelledby="viewProductModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header bg-primary text-white">
+        <h5 class="modal-title" id="viewProductModalLabel">View Product</h5>
+        <button
+          type="button"
+          class="btn-close"
+          (click)="closeViewModal()"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="UpdateAppointmentForm" class="row g-3">
+          <div class="col-md-6">
+            <label for="providerName" class="form-label">Provider Name</label>
+            <span class="form-control shadow-sm readonly-style">HIII</span>
+            <div class="invalid-feedback">providerName is required.</div>
+          </div>
+          <div class="col-md-6">
+            <label for="appointmentDate" class="form-label"
+              >Appointment Date</label
+            >
+            <input
+              type="date"
+              id="appointmentDate"
+              class="form-control shadow-sm"
+              formControlName="appointmentDate"
+              [class.is-invalid]="
+                UpdateAppointmentForm.get('appointmentDate')?.invalid &&
+                UpdateAppointmentForm.get('appointmentDate')?.touched
+              "
+              required
+            />
+            <div class="invalid-feedback">Appointment Date is required.</div>
+          </div>
+
+          <div class="col-md-6">
+            <label for="status" class="form-label">Status</label>
+            <span class="form-control shadow-sm readonly-style">{{
+              UpdateAppointmentForm.get("status")?.value
+            }}</span>
+            <div class="invalid-feedback">Status is required.</div>
+          </div>
+
+          <div class="col-md-6">
+            <label for="appointmentTime" class="form-label"
+              >Appointment Time</label
+            >
+            <input
+              type="time"
+              id="appointmentTime"
+              class="form-control shadow-sm"
+              formControlName="appointmentTime"
+              [class.is-invalid]="
+                UpdateAppointmentForm.get('appointmentTime')?.invalid &&
+                UpdateAppointmentForm.get('appointmentTime')?.touched
+              "
+              required
+            />
+            <div class="invalid-feedback">Appointment Time is required.</div>
+          </div>
+
+          <div class="col-md-6">
+            <label for="chiefComplaint" class="form-label"
+              >Chief Complaint</label
+            >
+            <input
+              type="text"
+              id="chiefComplaint"
+              class="form-control shadow-sm"
+              formControlName="chiefComplaint"
+              placeholder="Enter product brand"
+              [class.is-invalid]="
+                UpdateAppointmentForm.get('chiefComplaint')?.invalid &&
+                UpdateAppointmentForm.get('chiefComplaint')?.touched
+              "
+              required
+            />
+            <div class="invalid-feedback">Chief Complaint is required.</div>
+          </div>
+          <div class="col-md-6">
+            <label for="providerName" class="form-label">Fees</label>
+            <span class="form-control shadow-sm readonly-style">{{
+              UpdateAppointmentForm.get("fees")?.value
+            }}</span>
+            <div class="invalid-feedback">providerName is required.</div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-secondary"
+          (click)="closeViewModal()"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--*****EditModal******-->
+
+<div
+  class="modal fade"
+  id="addProductModal"
+  tabindex="-1"
+  aria-labelledby="addProductModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header bg-primary text-white">
+        <h5 class="modal-title" id="addProductModalLabel">
+          <i class="bi bi-box"></i> Update Appointment
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          (click)="closeModal()"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="UpdateAppointmentForm" class="row g-3">
+          <div class="col-md-6">
+            <label for="providerName" class="form-label">Provider Name</label>
+            <span class="form-control shadow-sm readonly-style">{{
+              UpdateAppointmentForm.get("providerName")?.value
+            }}</span>
+            <div class="invalid-feedback">providerName is required.</div>
+          </div>
+          <div class="col-md-6">
+            <label for="appointmentDate" class="form-label"
+              >Appointment Date</label
+            >
+            <input
+              type="date"
+              id="appointmentDate"
+              class="form-control shadow-sm"
+              formControlName="appointmentDate"
+              [class.is-invalid]="
+                UpdateAppointmentForm.get('appointmentDate')?.invalid &&
+                UpdateAppointmentForm.get('appointmentDate')?.touched
+              "
+              required
+            />
+            <div class="invalid-feedback">Appointment Date is required.</div>
+          </div>
+
+          <div class="col-md-6">
+            <label for="status" class="form-label">Status</label>
+            <span class="form-control shadow-sm readonly-style">{{
+              UpdateAppointmentForm.get("status")?.value
+            }}</span>
+            <div class="invalid-feedback">Status is required.</div>
+          </div>
+
+          <div class="col-md-6">
+            <label for="appointmentTime" class="form-label"
+              >Appointment Time</label
+            >
+            <input
+              type="time"
+              id="appointmentTime"
+              class="form-control shadow-sm"
+              formControlName="appointmentTime"
+              [class.is-invalid]="
+                UpdateAppointmentForm.get('appointmentTime')?.invalid &&
+                UpdateAppointmentForm.get('appointmentTime')?.touched
+              "
+              required
+            />
+            <div class="invalid-feedback">Appointment Time is required.</div>
+          </div>
+
+          <div class="col-md-6">
+            <label for="chiefComplaint" class="form-label"
+              >Chief Complaint</label
+            >
+            <input
+              type="text"
+              id="chiefComplaint"
+              class="form-control shadow-sm"
+              formControlName="chiefComplaint"
+              placeholder="Enter product brand"
+              [class.is-invalid]="
+                UpdateAppointmentForm.get('chiefComplaint')?.invalid &&
+                UpdateAppointmentForm.get('chiefComplaint')?.touched
+              "
+              required
+            />
+            <div class="invalid-feedback">Chief Complaint is required.</div>
+          </div>
+          <div class="col-md-6">
+            <label for="providerName" class="form-label">Fees</label>
+            <span class="form-control shadow-sm readonly-style">{{
+              UpdateAppointmentForm.get("fees")?.value
+            }}</span>
+            <div class="invalid-feedback">providerName is required.</div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="closeModal()">
+          <i class="bi bi-x-circle"></i> Close
+        </button>
+        <button
+          *ngIf="!isupdate"
+          type="button"
+          class="btn btn-primary"
+          (click)="submitProduct()"
+        >
+          <i class="bi bi-save"></i> Update Appointment
+        </button>
+        <button *ngIf="isupdate" type="button" class="btn btn-primary">
+          <i class="bi bi-save"></i> Update Product
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+@if(isLoading){
+  <div class="loader-backdrop">
+    <div class="loader"></div>
+  </div>
+  }
+  

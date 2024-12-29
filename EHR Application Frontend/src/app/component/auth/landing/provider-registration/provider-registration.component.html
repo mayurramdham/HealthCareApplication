@@ -1,0 +1,387 @@
+<section
+  class="vh-100 bg-image"
+  style="
+    background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp');
+  "
+>
+  <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+          <div class="card" style="border-radius: 15px">
+            <div class="card-body p-5">
+              <h2 class="text-uppercase text-center mb-3">
+                Create an Provider Account
+              </h2>
+
+              <form [formGroup]="pateintRegisterForm" (ngSubmit)="onSubmit()">
+                <div class="row">
+                  <!-- First Column -->
+                  <div class="col-md-4">
+                    <div class="form-floating mb-3 mt-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="firstName"
+                        minlength="2"
+                        maxlength="12"
+                        pattern="[A-Za-z ]*"
+                        placeholder="Enter First Name"
+                        name="firstName"
+                        formControlName="firstName"
+                        [class.is-invalid]="
+                          pateintRegisterForm.get('firstName')?.invalid &&
+                          pateintRegisterForm.get('firstName')?.touched
+                        "
+                        (keypress)="removeNumbers($event)"
+                      />
+                      <label for="firstName">First Name</label>
+                      <div class="invalid-feedback">
+                        FirstName length between 2 to 12.
+                      </div>
+                    </div>
+
+                    <div class="form-floating mb-3 mt-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="lastName"
+                        minlength="2"
+                        maxlength="12"
+                        placeholder="Enter Last Name"
+                        name="lastName"
+                        formControlName="lastName"
+                        [class.is-invalid]="
+                          pateintRegisterForm.get('lastName')?.invalid &&
+                          pateintRegisterForm.get('lastName')?.touched
+                        "
+                      />
+                      <label for="lastName">Last Name</label>
+                      <div class="invalid-feedback">
+                        LastName length between 2 to 12.
+                      </div>
+                    </div>
+
+                    <div class="form-floating mb-3 mt-3">
+                      <select
+                        class="form-select"
+                        id="countryId"
+                        formControlName="countryId"
+                        (change)="onCountryChange($event)"
+                      >
+                        <option value="" disabled>Select Country</option>
+                        <option
+                          *ngFor="let country of countries"
+                          [value]="country.countryId"
+                        >
+                          {{ country.countryName }}
+                        </option>
+                      </select>
+                      <label for="countryId">Country</label>
+                    </div>
+
+                    <div class="form-floating mb-3 mt-3">
+                      <select
+                        class="form-select"
+                        id="stateId"
+                        formControlName="stateId"
+                        (change)="onStateChange($event)"
+                      >
+                        <option value="" disabled>Select State</option>
+                        <option
+                          *ngFor="let state of states"
+                          [value]="state.stateId"
+                        >
+                          {{ state.stateName }}
+                        </option>
+                      </select>
+                      <label for="stateId">State</label>
+                    </div>
+                    <div class="form-floating mb-3 mt-3">
+                      <select
+                        class="form-select"
+                        id="cityId"
+                        formControlName="cityId"
+                      >
+                        <option value="" disabled>Select City</option>
+                        <option
+                          *ngFor="let city of cities"
+                          [value]="city.cityId"
+                        >
+                          {{ city.cityName }}
+                        </option>
+                      </select>
+                      <label for="City">City</label>
+                      <div class="invalid-feedback">
+                        City length between 2 and 15.
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Second Column -->
+                  <div class="col-md-4">
+                    <div class="form-floating mb-3 mt-3">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        placeholder="Enter Email"
+                        name="email"
+                        formControlName="email"
+                        [class.is-invalid]="
+                          pateintRegisterForm.get('email')?.invalid &&
+                          pateintRegisterForm.get('email')?.touched
+                        "
+                      />
+                      <label for="email">Email</label>
+                      <div class="invalid-feedback">
+                        Enter a valid email address.
+                      </div>
+                    </div>
+
+                    <div class="form-floating mb-3 mt-3">
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="mobile"
+                        placeholder="Enter Mobile Number"
+                        name="mobile"
+                        formControlName="mobile"
+                        maxlength="10"
+                        (input)="validateMobileLength($event)"
+                        [class.is-invalid]="
+                          pateintRegisterForm.get('mobile')?.invalid &&
+                          pateintRegisterForm.get('mobile')?.touched
+                        "
+                      />
+                      <label for="mobile">Mobile</label>
+                      <div class="invalid-feedback">
+                        Mobile number is required and should be exactly 10
+                        digits.
+                      </div>
+                    </div>
+                    <div class="form-floating mb-3 mt-3">
+                      <input
+                        type="date"
+                        class="form-control"
+                        id="dateOfBirth"
+                        placeholder="Enter DOB"
+                        name="dob"
+                        [max]="todayDate"
+                        formControlName="dateOfBirth"
+                        [class.is-invalid]="
+                          pateintRegisterForm.get('dateOfBirth')?.invalid &&
+                          pateintRegisterForm.get('dateOfBirth')?.touched
+                        "
+                      />
+                      <label for="dateOfBirth">Date of Birth</label>
+
+                      <div class="invalid-feedback">
+                        Date of Birth is required.
+                      </div>
+                    </div>
+
+                    <div class="form-floating mb-3 mt-3">
+                      <select
+                        class="form-select"
+                        id="gender"
+                        formControlName="gender"
+                      >
+                        <option value="" disabled>Select Gender</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                        <option value="3">Other</option>
+                      </select>
+                      <label for="gender">Gender</label>
+                      <div class="invalid-feedback">Gender is required.</div>
+                    </div>
+
+                    <div class="form-floating mb-3 mt-3">
+                      <select
+                        class="form-select"
+                        id="bloodgroupId"
+                        formControlName="bloodGroupId"
+                      >
+                        <option value="" disabled>Select BloodGroup</option>
+                        <option value="1">A+</option>
+                        <option value="2">B+</option>
+                        <option value="3">AB+</option>
+                        <option value="4">O+</option>
+                        <option value="5">A-</option>
+                        <option value="6">B-</option>
+                        <option value="7">AB-</option>
+                        <option value="8">O-</option>
+                      </select>
+                      <label for="bloodGroupId">Blood Group</label>
+                      <div class="invalid-feedback">
+                        Blood Group is required.
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Third Column -->
+                  <div class="col-md-4">
+                    <div class="form-floating mb-3 mt-3">
+                      <textarea
+                        class="form-control"
+                        id="address"
+                        placeholder="Enter Address"
+                        name="address"
+                        formControlName="address"
+                        minlength="2"
+                        maxlength="25"
+                        [class.is-invalid]="
+                          pateintRegisterForm.get('address')?.invalid &&
+                          pateintRegisterForm.get('address')?.touched
+                        "
+                      ></textarea>
+                      <label for="address">Address</label>
+                      <div class="invalid-feedback">
+                        Address length between 2 and 25
+                      </div>
+                    </div>
+
+                    <div class="form-floating mb-3 mt-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Enter registration number"
+                        name="registrationNumber"
+                        minlength="2"
+                        maxlength="12"
+                        formControlName="registrationNumber"
+                        [class.is-invalid]="
+                          pateintRegisterForm.get('registrationNumber')
+                            ?.invalid &&
+                          pateintRegisterForm.get('registrationNumber')?.touched
+                        "
+                      />
+                      <label for="registrationNumber">registrationNumber</label>
+                      <div class="invalid-feedback">
+                        * registrationNumber is up to 12 digit
+                      </div>
+                    </div>
+
+                    <div class="form-floating mb-3 mt-3">
+                      <textarea
+                        class="form-control"
+                        id="qualification"
+                        placeholder="Enter qualification"
+                        name="qualification"
+                        formControlName="qualification"
+                        [class.is-invalid]="
+                          pateintRegisterForm.get('qualification')?.invalid &&
+                          pateintRegisterForm.get('qualification')?.touched
+                        "
+                      ></textarea>
+                      <label for="qualification">qualification</label>
+                      <div class="invalid-feedback">
+                        qualification is required.
+                      </div>
+                    </div>
+
+                    <div class="form-floating mb-3 mt-3">
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="pincode"
+                        placeholder="Enter pincode"
+                        name="zipcode"
+                        formControlName="pincode"
+                        (input)="validateZipcodeLength($event)"
+                        [class.is-invalid]="
+                          pateintRegisterForm.get('pincode')?.invalid &&
+                          pateintRegisterForm.get('pincode')?.touched
+                        "
+                      />
+                      <label for="zipcode">pincode</label>
+                      <div class="invalid-feedback">
+                        pincode must be a 6-digit number.
+                      </div>
+                    </div>
+
+                    <div class="form-floating mb-3 mt-3">
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="visitingCharge"
+                        placeholder="Enter visitingCharge "
+                        name="visitingCharge"
+                        formControlName="visitingCharge"
+                        (input)="validateMobileLength($event)"
+                      />
+                      <label for="visitingCharge">visitingCharge</label>
+                      <div class="invalid-feedback">
+                        visitingCharge is up to 10 digit
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Full-Width Row for Image Upload -->
+                  <div class="d-flex gap-3">
+                    <div class="form-floating mb-3 mt-2">
+                      <input
+                        type="file"
+                        class="form-control"
+                        id="profileImageUrl"
+                        (change)="onFileSelect($event)"
+                      />
+                      <label for="profileImage">Upload Profile Image</label>
+                    </div>
+                    <div class="form-floating mb-3 mt-2">
+                      <select
+                        class="form-select"
+                        id="specialisationId"
+                        formControlName="specialisationId"
+                      >
+                        <option value="" disabled>
+                          Select Specialisation Type
+                        </option>
+                        <option value="1">Cardiology</option>
+                        <option value="2">Neurology</option>
+                        <option value="3">Orthopedics</option>
+                        <option value="4">Pediatrics</option>
+                        <option value="5">Oncology</option>
+                        <option value="6">Gynecology and Obstetrics</option>
+                        <option value="7">Dermatology</option>
+                        <option value="8">Gastroenterology</option>
+                        <option value="9">Pulmonology</option>
+                      </select>
+                      <label for="specialisationId">specialisation </label>
+                      <div class="invalid-feedback">
+                        specialisation is required.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="d-flex justify-content-center">
+                    <button
+                      type="submit"
+                      class="btn btn-success btn-block btn-lg gradient-custom-4 text-body"
+                      [disabled]="pateintRegisterForm.invalid"
+                    >
+                      Register
+                    </button>
+                  </div>
+
+                  <p class="text-center text-muted mt-2 mb-0">
+                    Already have an account?
+                    <a routerLink="/auth/login" class="fw-bold text-body"
+                      ><u>Login here</u></a
+                    >
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+@if(isLoading){
+<div class="loader-backdrop">
+  <div class="loader"></div>
+</div>
+}

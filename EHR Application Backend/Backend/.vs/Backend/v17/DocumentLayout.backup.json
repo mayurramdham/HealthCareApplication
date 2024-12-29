@@ -1,0 +1,1750 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayur ramdham\\desktop\\smartdataprojects\\smartdata\\assesment\\assesment_8ehr\\ehr application backend\\app.core\\apps\\appointment\\command\\cancelappointmentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayur ramdham\\desktop\\smartdataprojects\\smartdata\\assesment\\assesment_8ehr\\ehr application backend\\app.core\\apps\\appointment\\command\\paymentandbookappointmentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11372A5C-EC04-4207-9CA5-46A421AFDD93}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\mayur ramdham\\desktop\\smartdataprojects\\smartdata\\assesment\\assesment_8ehr\\ehr application backend\\infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayur ramdham\\desktop\\smartdataprojects\\smartdata\\assesment\\assesment_8ehr\\ehr application backend\\app.core\\apps\\user\\command\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayur ramdham\\desktop\\smartdataprojects\\smartdata\\assesment\\assesment_8ehr\\ehr application backend\\app.core\\apps\\appointment\\query\\getallproviderappointmentwithoutstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayur ramdham\\desktop\\smartdataprojects\\smartdata\\assesment\\assesment_8ehr\\ehr application backend\\backend\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayur ramdham\\desktop\\smartdataprojects\\smartdata\\assesment\\assesment_8ehr\\ehr application backend\\app.core\\apps\\user\\command\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayur ramdham\\desktop\\smartdataprojects\\smartdata\\assesment\\assesment_8ehr\\ehr application backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayur ramdham\\desktop\\smartdataprojects\\smartdata\\assesment\\assesment_8ehr\\ehr application backend\\app.core\\apps\\user\\command\\forgotpasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayur ramdham\\desktop\\smartdataprojects\\smartdata\\assesment\\assesment_8ehr\\ehr application backend\\app.core\\apps\\helper\\forgetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayur ramdham\\desktop\\smartdataprojects\\smartdata\\assesment\\assesment_8ehr\\ehr application backend\\app.core\\apps\\helper\\generateotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayur ramdham\\desktop\\smartdataprojects\\smartdata\\assesment\\assesment_8ehr\\ehr application backend\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayur ramdham\\desktop\\smartdataprojects\\smartdata\\assesment\\assesment_8ehr\\ehr application backend\\backend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayur ramdham\\desktop\\smartdataprojects\\smartdata\\assesment\\assesment_8ehr\\ehr application backend\\backend\\controllers\\dropdowncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:controllers\\dropdowncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayur ramdham\\desktop\\smartdataprojects\\smartdata\\assesment\\assesment_8ehr\\ehr application backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.Pack.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayur ramdham\\desktop\\smartdataprojects\\smartdata\\assesment\\assesment_8ehr\\ehr application backend\\backend\\controllers\\stripecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:controllers\\stripecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayur ramdham\\desktop\\smartdataprojects\\smartdata\\assesment\\assesment_8ehr\\ehr application backend\\backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\UpdatePatientAppointmentCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\VeryOtpCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointmentWithoutStatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointmentWithoutStatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddAppointmentCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Infrastructure\\Migrations\\20241216101858_mobile-status-added.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Infrastructure\\Migrations\\20241218100132_added-soaptable-status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Infrastructure\\Migrations\\20241218094802_added-soaptable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Model\\AuthProcessDto\\UserDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Entity\\Appointments\\SoapNoteTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Infrastructure\\Services\\EmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddSoapNoteCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetPatientAppointmentByAppointmentId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddAppointmentCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Model\\SoapNoteDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Model\\AuthProcessDto\\AppointmentDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Infrastructure\\Database\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Entity\\Appointments\\Appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetSpecilatyQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetProviderBySpecialityQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProvider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\UpdatePatientAppointmentCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\CancelAppointmentCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\DropDown\\GetStatesByCountryQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\DropDown\\GetCountriesQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Model\\UserListDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Infrastructure\\Migrations\\20241216101858_mobile-status-added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\UpdatePatientAppointmentCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Model\\PaymentAndBookAppointmentDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProvider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddAppointmentCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddSoapNoteCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Model\\StripePaymentResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Entity\\Appointments\\Striprequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Interface\\IStripePaymentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Infrastructure\\Services\\StripePaymentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Model\\AuthProcessDto\\AppointmentDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Model\\AuthProcessDto\\UpdateUserDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\UpdateUserProfileCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Services\\StripePaymentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\UserType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\LoginCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Migrations\\20241218192345_final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\BloodGroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\Specialisation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Services\\JwtService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\DependancyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\CancelAppointmentCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetPatientAppointmentByAppointmentId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\UpdateUserProfileCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\LoginCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\UpdatePatientAppointmentCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetProviderBySpecialityQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\VeryOtpCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Services\\JwtService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Entity\\Appointments\\Striprequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Model\\PaymentAndBookAppointmentDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\DropDown\\GetStatesByCountryQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\DropDown\\GetCountriesQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\ForgotPasswordCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Model\\UserListDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\UpdateUserProfileCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Services\\JwtService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\User\\Command\\ChangePasswordCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\User\\Command\\ForgotPasswordCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\User\\Command\\VeryOtpCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Infrastructure\\Services\\EmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\User\\Command\\UpdateUserProfileCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Infrastructure\\Migrations\\20241224132530_Added city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Domain\\Entity\\AuthProcess\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Domain\\Model\\AuthProcessDto\\UserDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\DropDown\\GetCountriesQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\DropDown\\GetStatesByCountryQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Infrastructure\\Services\\StripePaymentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\DropDown\\GetCityByStateQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Infrastructure\\Database\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Domain\\Entity\\AuthProcess\\City.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Domain\\Entity\\AuthProcess\\State.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Infrastructure\\Migrations\\20241224100712_city-table-added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CancelAppointmentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\App.Core\\Apps\\Appointment\\Command\\CancelAppointmentCommand.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Appointment\\Command\\CancelAppointmentCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\App.Core\\Apps\\Appointment\\Command\\CancelAppointmentCommand.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\Appointment\\Command\\CancelAppointmentCommand.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCIAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T09:53:18.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentAndBookAppointmentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T15:29:56.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetAllProviderAppointmentWithoutStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointmentWithoutStatus.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointmentWithoutStatus.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointmentWithoutStatus.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointmentWithoutStatus.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAjwCQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T15:02:11.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ForgotPasswordCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\App.Core\\Apps\\User\\Command\\ForgotPasswordCommand.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\User\\Command\\ForgotPasswordCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\App.Core\\Apps\\User\\Command\\ForgotPasswordCommand.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\User\\Command\\ForgotPasswordCommand.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T09:59:11.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:00:06.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\Infrastructure\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\Infrastructure\\Services\\EmailService.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFoAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:44:39.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GenerateOtp.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\App.Core\\Apps\\Helper\\GenerateOtp.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Helper\\GenerateOtp.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\App.Core\\Apps\\Helper\\GenerateOtp.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\Helper\\GenerateOtp.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T10:25:51.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\App.Core\\Apps\\User\\Command\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\User\\Command\\LoginCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\App.Core\\Apps\\User\\Command\\LoginCommand.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\User\\Command\\LoginCommand.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA3wCgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T14:01:45.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "ForgotPasswordCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\User\\Command\\ForgotPasswordCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\EHR Application\\App.Core\\Apps\\User\\Command\\ForgotPasswordCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\User\\Command\\ForgotPasswordCommand.cs",
+              "RelativeToolTip": "..\\..\\EHR Application\\App.Core\\Apps\\User\\Command\\ForgotPasswordCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T15:13:52.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\Backend\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AppointmentController.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\Backend\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowEIAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T04:42:17.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "VeryOtpCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\User\\Command\\VeryOtpCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\EHR Application\\App.Core\\Apps\\User\\Command\\VeryOtpCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\User\\Command\\VeryOtpCommand.cs",
+              "RelativeToolTip": "..\\..\\EHR Application\\App.Core\\Apps\\User\\Command\\VeryOtpCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T15:09:37.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Infrastructure\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "..\\..\\EHR Application\\Infrastructure\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Infrastructure\\Services\\EmailService.cs",
+              "RelativeToolTip": "..\\..\\EHR Application\\Infrastructure\\Services\\EmailService.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAnwGsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T13:35:23.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\Backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-18T04:41:39.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ForgetPassword.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\App.Core\\Apps\\Helper\\ForgetPassword.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Helper\\ForgetPassword.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\App.Core\\Apps\\Helper\\ForgetPassword.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\Helper\\ForgetPassword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T10:27:05.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "RegisterUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\EHR Application\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs",
+              "RelativeToolTip": "..\\..\\EHR Application\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T13:33:22.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\Backend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\Backend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwCkAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:17:49.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "ChangePasswordCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\User\\Command\\ChangePasswordCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\EHR Application\\App.Core\\Apps\\User\\Command\\ChangePasswordCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\User\\Command\\ChangePasswordCommand.cs",
+              "RelativeToolTip": "..\\..\\EHR Application\\App.Core\\Apps\\User\\Command\\ChangePasswordCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T15:20:49.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\Backend\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\Backend\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-24T10:15:42.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "UpdateUserProfileCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\User\\Command\\UpdateUserProfileCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\EHR Application\\App.Core\\Apps\\User\\Command\\UpdateUserProfileCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\User\\Command\\UpdateUserProfileCommand.cs",
+              "RelativeToolTip": "..\\..\\EHR Application\\App.Core\\Apps\\User\\Command\\UpdateUserProfileCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T15:09:38.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "20241224132530_Added city.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Infrastructure\\Migrations\\20241224132530_Added city.cs",
+              "RelativeDocumentMoniker": "..\\..\\EHR Application\\Infrastructure\\Migrations\\20241224132530_Added city.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Infrastructure\\Migrations\\20241224132530_Added city.cs",
+              "RelativeToolTip": "..\\..\\EHR Application\\Infrastructure\\Migrations\\20241224132530_Added city.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T13:25:30.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Domain\\Entity\\AuthProcess\\User.cs",
+              "RelativeDocumentMoniker": "..\\..\\EHR Application\\Domain\\Entity\\AuthProcess\\User.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Domain\\Entity\\AuthProcess\\User.cs",
+              "RelativeToolTip": "..\\..\\EHR Application\\Domain\\Entity\\AuthProcess\\User.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAA8wDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T13:14:45.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Domain\\Model\\AuthProcessDto\\UserDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\EHR Application\\Domain\\Model\\AuthProcessDto\\UserDto.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Domain\\Model\\AuthProcessDto\\UserDto.cs",
+              "RelativeToolTip": "..\\..\\EHR Application\\Domain\\Model\\AuthProcessDto\\UserDto.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA/wBgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T13:13:56.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "GetCountriesQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\DropDown\\GetCountriesQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\EHR Application\\App.Core\\Apps\\DropDown\\GetCountriesQuery.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\DropDown\\GetCountriesQuery.cs",
+              "RelativeToolTip": "..\\..\\EHR Application\\App.Core\\Apps\\DropDown\\GetCountriesQuery.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T10:32:29.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "GetStatesByCountryQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\DropDown\\GetStatesByCountryQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\EHR Application\\App.Core\\Apps\\DropDown\\GetStatesByCountryQuery.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\DropDown\\GetStatesByCountryQuery.cs",
+              "RelativeToolTip": "..\\..\\EHR Application\\App.Core\\Apps\\DropDown\\GetStatesByCountryQuery.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwCoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T10:28:22.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "StripePaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Infrastructure\\Services\\StripePaymentService.cs",
+              "RelativeDocumentMoniker": "..\\..\\EHR Application\\Infrastructure\\Services\\StripePaymentService.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Infrastructure\\Services\\StripePaymentService.cs",
+              "RelativeToolTip": "..\\..\\EHR Application\\Infrastructure\\Services\\StripePaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T10:20:10.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "GetCityByStateQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\DropDown\\GetCityByStateQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\EHR Application\\App.Core\\Apps\\DropDown\\GetCityByStateQuery.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\App.Core\\Apps\\DropDown\\GetCityByStateQuery.cs",
+              "RelativeToolTip": "..\\..\\EHR Application\\App.Core\\Apps\\DropDown\\GetCityByStateQuery.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T10:17:35.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dropDownController.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\Backend\\Controllers\\dropDownController.cs",
+              "RelativeDocumentMoniker": "Controllers\\dropDownController.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\Backend\\Controllers\\dropDownController.cs",
+              "RelativeToolTip": "Controllers\\dropDownController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T15:35:14.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Infrastructure\\Database\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\EHR Application\\Infrastructure\\Database\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Infrastructure\\Database\\AppDbContext.cs",
+              "RelativeToolTip": "..\\..\\EHR Application\\Infrastructure\\Database\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T10:05:01.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "City.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Domain\\Entity\\AuthProcess\\City.cs",
+              "RelativeDocumentMoniker": "..\\..\\EHR Application\\Domain\\Entity\\AuthProcess\\City.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Domain\\Entity\\AuthProcess\\City.cs",
+              "RelativeToolTip": "..\\..\\EHR Application\\Domain\\Entity\\AuthProcess\\City.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAD4vxIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T10:02:25.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "State.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Domain\\Entity\\AuthProcess\\State.cs",
+              "RelativeDocumentMoniker": "..\\..\\EHR Application\\Domain\\Entity\\AuthProcess\\State.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Domain\\Entity\\AuthProcess\\State.cs",
+              "RelativeToolTip": "..\\..\\EHR Application\\Domain\\Entity\\AuthProcess\\State.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAtwBEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T10:01:37.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\Backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAQwF8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T09:49:21.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "20241224100712_city-table-added.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Infrastructure\\Migrations\\20241224100712_city-table-added.cs",
+              "RelativeDocumentMoniker": "..\\..\\EHR Application\\Infrastructure\\Migrations\\20241224100712_city-table-added.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application\\Infrastructure\\Migrations\\20241224100712_city-table-added.cs",
+              "RelativeToolTip": "..\\..\\EHR Application\\Infrastructure\\Migrations\\20241224100712_city-table-added.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T10:07:13.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StripeController.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\Backend\\Controllers\\StripeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StripeController.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\Backend\\Controllers\\StripeController.cs",
+              "RelativeToolTip": "Controllers\\StripeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:02:52.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Microsoft.NET.Sdk.StaticWebAssets.Pack.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.Pack.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.Pack.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.Pack.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.Pack.targets",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAswIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-12-22T15:33:42.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\Backend\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\Assesment\\Assesment_8EHR\\EHR Application Backend\\Backend\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T15:35:23.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartDataProjects\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Services\\JwtService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Services\\JwtService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAqwBYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T15:33:34.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdatePatientAppointmentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\UpdatePatientAppointmentCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\UpdatePatientAppointmentCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\UpdatePatientAppointmentCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\UpdatePatientAppointmentCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T05:47:10.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "VeryOtpCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\VeryOtpCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\VeryOtpCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\VeryOtpCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\VeryOtpCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T05:47:21.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetAllPatientAppointment.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointment.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointment.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointment.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointment.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:58:43.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetAllProviderAppointment.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointment.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointment.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointment.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointment.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T09:22:48.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PaymentAndBookAppointmentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T05:29:02.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "UserListDto.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Model\\UserListDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Model\\UserListDto.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Model\\UserListDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Model\\UserListDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T09:00:33.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "RegisterUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwEEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T04:51:45.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "UpdateUserProfileCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\UpdateUserProfileCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\UpdateUserProfileCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\UpdateUserProfileCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\EHRApplication 8\\backendEhrWithStripe\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\UpdateUserProfileCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T05:47:22.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetAllProviderAppointment.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointment.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointment.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointment.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointment.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T08:21:38.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetAllPatientAppointmentWithoutStatus.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointmentWithoutStatus.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointmentWithoutStatus.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointmentWithoutStatus.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointmentWithoutStatus.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T08:46:08.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddAppointmentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddAppointmentCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddAppointmentCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddAppointmentCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddAppointmentCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T06:53:23.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetAllProviderAppointmentWithoutStatus.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointmentWithoutStatus.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointmentWithoutStatus.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointmentWithoutStatus.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointmentWithoutStatus.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T11:41:41.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PaymentAndBookAppointmentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T05:27:24.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "CancelAppointmentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\CancelAppointmentCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\CancelAppointmentCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\CancelAppointmentCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\CancelAppointmentCommand.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T08:38:24.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "GetPatientAppointmentByAppointmentId.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetPatientAppointmentByAppointmentId.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetPatientAppointmentByAppointmentId.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetPatientAppointmentByAppointmentId.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetPatientAppointmentByAppointmentId.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T08:44:55.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "GetAllPatientAppointment.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointment.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointment.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointment.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointment.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T08:45:18.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "UpdateUserProfileCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\UpdateUserProfileCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\UpdateUserProfileCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\UpdateUserProfileCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\UpdateUserProfileCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T05:27:01.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\LoginCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\LoginCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\LoginCommand.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAywCYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T04:47:40.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "UpdatePatientAppointmentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\UpdatePatientAppointmentCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\UpdatePatientAppointmentCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\UpdatePatientAppointmentCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\UpdatePatientAppointmentCommand.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T05:27:15.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "GetProviderBySpecialityQuery.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetProviderBySpecialityQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetProviderBySpecialityQuery.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetProviderBySpecialityQuery.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetProviderBySpecialityQuery.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwCQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T08:05:28.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "VeryOtpCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\VeryOtpCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\VeryOtpCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\VeryOtpCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\VeryOtpCommand.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwEMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:38:01.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Services\\JwtService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Services\\JwtService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:38:24.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Striprequestmodel.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Entity\\Appointments\\Striprequestmodel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Entity\\Appointments\\Striprequestmodel.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Entity\\Appointments\\Striprequestmodel.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Entity\\Appointments\\Striprequestmodel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T06:40:08.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "PaymentAndBookAppointmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Model\\PaymentAndBookAppointmentDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Model\\PaymentAndBookAppointmentDto.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Model\\PaymentAndBookAppointmentDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Model\\PaymentAndBookAppointmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T05:30:01.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "GetStatesByCountryQuery.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\DropDown\\GetStatesByCountryQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\DropDown\\GetStatesByCountryQuery.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\DropDown\\GetStatesByCountryQuery.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\DropDown\\GetStatesByCountryQuery.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T04:41:42.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "GetCountriesQuery.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\DropDown\\GetCountriesQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\DropDown\\GetCountriesQuery.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\DropDown\\GetCountriesQuery.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\DropDown\\GetCountriesQuery.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T04:41:37.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "RegisterUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T04:40:49.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "ForgotPasswordCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\ForgotPasswordCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\ForgotPasswordCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\ForgotPasswordCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\ForgotPasswordCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T04:35:00.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "StripePaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Services\\StripePaymentService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Services\\StripePaymentService.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Services\\StripePaymentService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Services\\StripePaymentService.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAswH0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:03:52.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "UserType.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\UserType.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\UserType.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\UserType.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\UserType.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:03:15.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\LoginCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\LoginCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\LoginCommand.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAcwEIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:02:54.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PaymentAndBookAppointmentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:01:39.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "20241218192345_final.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Migrations\\20241218192345_final.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Migrations\\20241218192345_final.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Migrations\\20241218192345_final.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Migrations\\20241218192345_final.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T19:23:45.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "BloodGroup.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\BloodGroup.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\BloodGroup.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\BloodGroup.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\BloodGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T19:36:01.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Specialisation.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\Specialisation.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\Specialisation.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\Specialisation.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\Specialisation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T19:36:13.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Services\\JwtService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\Services\\JwtService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAArwCkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:07:01.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\DependancyInjection.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\DependancyInjection.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhrWithStripe\\backend\\EHR Application\\Infrastructure\\DependancyInjection.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:07:57.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20241216101858_mobile-status-added.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Infrastructure\\Migrations\\20241216101858_mobile-status-added.Designer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\Infrastructure\\Migrations\\20241216101858_mobile-status-added.Designer.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Infrastructure\\Migrations\\20241216101858_mobile-status-added.Designer.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\Infrastructure\\Migrations\\20241216101858_mobile-status-added.Designer.cs",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAmwAYBAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:55:22.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "UpdatePatientAppointmentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\UpdatePatientAppointmentCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\UpdatePatientAppointmentCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\UpdatePatientAppointmentCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\UpdatePatientAppointmentCommand.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:50:35.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "PaymentAndBookAppointmentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\PaymentAndBookAppointmentCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:12:54.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "PaymentAndBookAppointmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Model\\PaymentAndBookAppointmentDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Model\\PaymentAndBookAppointmentDto.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Model\\PaymentAndBookAppointmentDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Model\\PaymentAndBookAppointmentDto.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:31:23.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20241216101858_mobile-status-added.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Infrastructure\\Migrations\\20241216101858_mobile-status-added.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\Infrastructure\\Migrations\\20241216101858_mobile-status-added.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Infrastructure\\Migrations\\20241216101858_mobile-status-added.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\Infrastructure\\Migrations\\20241216101858_mobile-status-added.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:55:14.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\User.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\User.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\User.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\User.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAIA8wCsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:14:46.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "GetAllPatient.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatient.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatient.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatient.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatient.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:35:08.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "GetAllProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProvider.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProvider.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProvider.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProvider.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAswDYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:36:47.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "AddAppointmentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddAppointmentCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddAppointmentCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddAppointmentCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddAppointmentCommand.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:39:27.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "AddSoapNoteCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddSoapNoteCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddSoapNoteCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddSoapNoteCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddSoapNoteCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:39:30.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "GetAllPatientAppointment.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointment.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointment.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointment.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:35:16.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "StripePaymentResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Model\\StripePaymentResponse.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Model\\StripePaymentResponse.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Model\\StripePaymentResponse.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Model\\StripePaymentResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:24:47.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Striprequestmodel.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Entity\\Appointments\\Striprequestmodel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Entity\\Appointments\\Striprequestmodel.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Entity\\Appointments\\Striprequestmodel.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Entity\\Appointments\\Striprequestmodel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:49:00.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "IStripePaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Interface\\IStripePaymentService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Interface\\IStripePaymentService.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Interface\\IStripePaymentService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Interface\\IStripePaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:46:36.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "StripePaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Infrastructure\\Services\\StripePaymentService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\Infrastructure\\Services\\StripePaymentService.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Infrastructure\\Services\\StripePaymentService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\Infrastructure\\Services\\StripePaymentService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswD8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:50:06.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "AppointmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Model\\AuthProcessDto\\AppointmentDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Model\\AuthProcessDto\\AppointmentDto.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Model\\AuthProcessDto\\AppointmentDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Model\\AuthProcessDto\\AppointmentDto.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:15:03.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Model\\AuthProcessDto\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Model\\AuthProcessDto\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Model\\AuthProcessDto\\UpdateUserDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\Domain\\Model\\AuthProcessDto\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:13:17.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "UpdateUserProfileCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\UpdateUserProfileCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\UpdateUserProfileCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\UpdateUserProfileCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\EHRApplication\\backendEhr\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\UpdateUserProfileCommand.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:10:24.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RegisterUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\User\\Command\\RegisterUserCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T12:15:13.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SoapNoteTable.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Entity\\Appointments\\SoapNoteTable.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Entity\\Appointments\\SoapNoteTable.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Entity\\Appointments\\SoapNoteTable.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Entity\\Appointments\\SoapNoteTable.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:42:19.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Infrastructure\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Infrastructure\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Infrastructure\\Services\\EmailService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Infrastructure\\Services\\EmailService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T04:42:17.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AddSoapNoteCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddSoapNoteCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddSoapNoteCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddSoapNoteCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddSoapNoteCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:40:49.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Model\\AuthProcessDto\\UserDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Model\\AuthProcessDto\\UserDto.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Model\\AuthProcessDto\\UserDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Model\\AuthProcessDto\\UserDto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T12:25:14.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\User.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\User.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\User.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Entity\\AuthProcess\\User.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T04:42:17.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20241218100132_added-soaptable-status.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Infrastructure\\Migrations\\20241218100132_added-soaptable-status.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Infrastructure\\Migrations\\20241218100132_added-soaptable-status.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Infrastructure\\Migrations\\20241218100132_added-soaptable-status.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Infrastructure\\Migrations\\20241218100132_added-soaptable-status.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T10:01:32.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GetPatientAppointmentByAppointmentId.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetPatientAppointmentByAppointmentId.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetPatientAppointmentByAppointmentId.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetPatientAppointmentByAppointmentId.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetPatientAppointmentByAppointmentId.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T06:51:03.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AddAppointmentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddAppointmentCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddAppointmentCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddAppointmentCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\AddAppointmentCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T12:52:44.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SoapNoteDto.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Model\\SoapNoteDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Model\\SoapNoteDto.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Model\\SoapNoteDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Model\\SoapNoteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:49:27.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AppointmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Model\\AuthProcessDto\\AppointmentDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Model\\AuthProcessDto\\AppointmentDto.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Model\\AuthProcessDto\\AppointmentDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Model\\AuthProcessDto\\AppointmentDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:53:42.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20241218094802_added-soaptable.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Infrastructure\\Migrations\\20241218094802_added-soaptable.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Infrastructure\\Migrations\\20241218094802_added-soaptable.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Infrastructure\\Migrations\\20241218094802_added-soaptable.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Infrastructure\\Migrations\\20241218094802_added-soaptable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:48:02.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Infrastructure\\Database\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Infrastructure\\Database\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Infrastructure\\Database\\AppDbContext.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Infrastructure\\Database\\AppDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wBgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:46:19.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GetAllProviderAppointment.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointment.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointment.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointment.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProviderAppointment.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T04:51:46.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "GetAllPatientAppointment.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointment.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointment.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointment.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatientAppointment.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwC4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T04:51:52.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Entity\\Appointments\\Appointment.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Entity\\Appointments\\Appointment.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Entity\\Appointments\\Appointment.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Entity\\Appointments\\Appointment.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T06:55:21.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "GetSpecilatyQuery.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetSpecilatyQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetSpecilatyQuery.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetSpecilatyQuery.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetSpecilatyQuery.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T05:41:50.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GetProviderBySpecialityQuery.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetProviderBySpecialityQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetProviderBySpecialityQuery.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetProviderBySpecialityQuery.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetProviderBySpecialityQuery.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T05:41:48.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "GetAllProvider.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProvider.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProvider.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProvider.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllProvider.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T04:42:17.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "GetAllPatient.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatient.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatient.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatient.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Query\\GetAllPatient.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwCcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T05:03:52.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UpdatePatientAppointmentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\UpdatePatientAppointmentCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\UpdatePatientAppointmentCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\UpdatePatientAppointmentCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\UpdatePatientAppointmentCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T04:42:17.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CancelAppointmentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\CancelAppointmentCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\CancelAppointmentCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\CancelAppointmentCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\Appointment\\Command\\CancelAppointmentCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T04:42:17.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "GetStatesByCountryQuery.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\DropDown\\GetStatesByCountryQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\DropDown\\GetStatesByCountryQuery.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\DropDown\\GetStatesByCountryQuery.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\DropDown\\GetStatesByCountryQuery.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T06:06:32.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "GetCountriesQuery.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\DropDown\\GetCountriesQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\DropDown\\GetCountriesQuery.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\DropDown\\GetCountriesQuery.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\App.Core\\Apps\\DropDown\\GetCountriesQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T06:06:31.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "UserListDto.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Model\\UserListDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Model\\UserListDto.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Model\\UserListDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Model\\UserListDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T04:53:21.983Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

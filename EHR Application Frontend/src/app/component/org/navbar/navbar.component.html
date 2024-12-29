@@ -1,0 +1,81 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container-fluid">
+    <div class="d-flex align-items-center">
+      <img src="../../../../assets/healthcare-logo.png" class="health-logo" />
+      <a class="navbar-brand fw-bold text-primary">EHRApplication</a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-dark fw-semibold" [routerLink]="'/org/home'"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            *ngIf="currentRole === 'Provider'"
+            class="nav-link text-dark fw-semibold"
+            routerLink="/org/providerAppointment"
+            >ProviderAppointment</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            *ngIf="currentRole === 'Patient'"
+            class="nav-link text-dark fw-semibold"
+            routerLink="/org/appointment"
+            >PatientAppointment</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-dark fw-semibold"
+            routerLink="/org/apppointmentHistory"
+            *ngIf="currentRole == 'Patient'"
+            >Appointment History</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-dark fw-semibold"
+            routerLink="/org/providerApppointmentHistory"
+            *ngIf="currentRole == 'Provider'"
+            >Appointment History</a
+          >
+        </li>
+      </ul>
+
+      <!-- User Actions -->
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item me-3">
+          <span class="navbar-text text-secondary me-3">
+            Welcome, <span class="fw-bold text-primary">{{ userName }}</span>
+            <br />
+            Role: <span class="fw-bold">{{ currentRole }}</span>
+          </span>
+        </li>
+
+        <li class="nav-item">
+          <img
+            [src]="usersData.profileImageUrl"
+            (error)="
+              usersData.profileImageUrl =
+                'https://avatars.githubusercontent.com/u/93993478?v=4'
+            "
+            alt="Profile Image"
+            class="profile-image rounded-circle me-3"
+            (click)="profile()"
+          />
+        </li>
+        <li class="nav-item">
+          <button
+            class="btn btn-danger btn-group-sm px-3 pt-2 pb-2"
+            (click)="logout()"
+          >
+            Logout
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

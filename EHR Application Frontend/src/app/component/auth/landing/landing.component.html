@@ -1,0 +1,39 @@
+<div class="container d-flex align-items-center justify-content-center vh-100">
+  <div class="row text-center w-100">
+    <div class="col-md-12">
+      <!-- Header Section -->
+      <h1 class="display-4 text-primary fw-bold mb-3">
+        Welcome to Healthcare System
+      </h1>
+      <p class="lead text-secondary mb-4">
+        Select your role to access your dashboard
+      </p>
+
+      <!-- Decorative Separator -->
+      <hr
+        class="my-4"
+        style="border-top: 2px solid #007bff; width: 50%; margin: 0 auto"
+      />
+
+      <!-- Role Buttons -->
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-4 mb-3">
+          <button
+            class="btn btn-lg btn-success w-100 py-3 d-flex align-items-center justify-content-center"
+            (click)="navigateToProvider()"
+          >
+            <i class="fas fa-user-md me-2"></i> Provider
+          </button>
+        </div>
+        <div class="col-md-4 mb-3">
+          <button
+            class="btn btn-lg btn-info w-100 py-3 d-flex align-items-center justify-content-center"
+            (click)="navigateToPatient()"
+          >
+            <i class="fas fa-user-injured me-2"></i> Patient
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

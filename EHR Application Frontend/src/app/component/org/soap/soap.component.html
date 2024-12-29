@@ -1,0 +1,150 @@
+<app-navbar></app-navbar>
+<div class="container mt-4">
+  <!-- Patient Profile Section -->
+  <div class="card">
+    <div class="card-header">
+      <h4>Patient Profile</h4>
+    </div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-3">
+          <img
+            [src]="soapData.user.profileImageUrl"
+            (error)="
+              soapData.user.profileImageUrl =
+                'data:image/jpeg;base64,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'
+            "
+            class="img-fluid rounded-circle"
+            alt="Profile Image"
+            style="width: 200px; height: 200px; object-fit: cover"
+          />
+        </div>
+        <div class="col-md-9">
+          <h5>{{ soapData.user.firstName }} {{ soapData.user.lastName }}</h5>
+          <p><strong>Age:</strong> {{ age }}</p>
+          <p><strong>Gender:</strong> {{ soapData.user.gender }}</p>
+          <p><strong>Email:</strong> {{ soapData.user.email }}</p>
+          <p><strong>Mobile:</strong> {{ soapData.user.mobile }}</p>
+          <p>
+            <strong>Appointment Date:</strong>
+            {{ soapData.appointmentDate | date : "longDate" }}
+          </p>
+          <p>
+            <strong>Appointment Time:</strong>
+            {{ soapData.appointmentTime }}
+          </p>
+
+          <p><strong>Chief Complaint:</strong> {{ soapData.chiefComplaint }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SOAP Notes Form -->
+  <div
+    class="card mt-4"
+    *ngIf="soapData.status == 'scheduled' || soapData.status == 'Scheduled'"
+  >
+    <div class="card-header">
+      <h4>SOAP Notes</h4>
+    </div>
+    <div class="card-body">
+      <form [formGroup]="soapForm" (ngSubmit)="saveSOAPNotes()">
+        <div class="form-group">
+          <label for="subjective">Subjective</label>
+          <textarea
+            id="subjective"
+            formControlName="subjective"
+            class="form-control"
+            rows="3"
+            placeholder="Enter Subjective Information"
+          ></textarea>
+          <div
+            *ngIf="
+              soapForm.get('subjective')?.touched &&
+              soapForm.get('subjective')?.invalid
+            "
+            class="text-danger"
+          >
+            <small *ngIf="soapForm.get('subjective')?.hasError('required')"
+              >Subjective information is required.</small
+            >
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="objective">Objective</label>
+          <textarea
+            id="objective"
+            formControlName="objective"
+            class="form-control"
+            rows="3"
+            placeholder="Enter Objective Information"
+          ></textarea>
+          <div
+            *ngIf="
+              soapForm.get('objective')?.touched &&
+              soapForm.get('objective')?.invalid
+            "
+            class="text-danger"
+          >
+            <small *ngIf="soapForm.get('objective')?.hasError('required')"
+              >objective information is required.</small
+            >
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="assessment">Assessment</label>
+          <textarea
+            id="assessment"
+            formControlName="assessment"
+            class="form-control"
+            rows="3"
+            placeholder="Enter Assessment"
+          ></textarea>
+          <div
+            *ngIf="
+              soapForm.get('assessment')?.touched &&
+              soapForm.get('assessment')?.invalid
+            "
+            class="text-danger"
+          >
+            <small *ngIf="soapForm.get('assessment')?.hasError('required')"
+              >assessment information is required.</small
+            >
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="plan">Plan</label>
+          <textarea
+            id="plan"
+            formControlName="plan"
+            class="form-control"
+            rows="3"
+            placeholder="Enter Plan"
+          ></textarea>
+          <div
+            *ngIf="
+              soapForm.get('plan')?.touched && soapForm.get('plan')?.invalid
+            "
+            class="text-danger"
+          >
+            <small *ngIf="soapForm.get('plan')?.hasError('required')"
+              >Subjective information is required.</small
+            >
+          </div>
+        </div>
+
+        <button
+          type="submit"
+          class="btn btn-primary"
+          [disabled]="soapForm.invalid"
+        >
+          Save SOAP Notes
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

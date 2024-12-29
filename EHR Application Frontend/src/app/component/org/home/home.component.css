@@ -1,0 +1,11 @@
+.readonly-style {
+  display: block; /* Ensure it behaves like a block-level element */
+  padding: 0.375rem 0.75rem; /* Same padding as input */
+  background-color: #f5f5f5; /* Light grey background */
+  border: 1px solid #ccc; /* Border like an input field */
+  border-radius: 0.25rem; /* Rounded corners */
+  width: 100%; /* Ensure it stretches across the available width */
+  font-size: 1rem; /* Consistent font size with input */
+  color: #495057; /* Default text color */
+  pointer-events: none; /* Disable interaction (read-only effect) */
+}

@@ -1,0 +1,56 @@
+<app-navbar></app-navbar>
+<div
+  class="container-fluid d-flex flex-column chat-app border rounded shadow-sm"
+>
+  <div
+    class="chat-header bg-primary text-white py-2 px-3 d-flex align-items-center justify-content-between"
+  >
+    <h5 class="mb-0">Skype Chat</h5>
+    <button class="btn btn-light btn-sm">
+      <i class="bi bi-gear"></i>
+    </button>
+  </div>
+  <!-- Chat Messages -->
+  <div class="chat-messages flex-grow-1 p-3 overflow-auto">
+    <div
+      *ngFor="let msg of messages"
+      class="d-flex mb-3"
+      [ngClass]="{
+        'justify-content-end': msg.senderId === senderId,
+        'justify-content-start': msg.senderId !== senderId
+      }"
+    >
+      <div
+        class="message p-3 rounded shadow-sm"
+        [ngClass]="{
+          'bg-primary text-white align-self-end': msg.senderId === senderId,
+          'bg-light text-dark align-self-start': msg.senderId !== senderId
+        }"
+      >
+        <small class="fw-bold d-block">{{ msg.senderName }}</small>
+        <span>{{ msg.message }}</span>
+        <small class="text-muted d-block mt-1" style="font-size: 0.75rem">
+          {{ msg.timestamp | date : "shortTime" }}
+        </small>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chat Input Section -->
+  <div class="chat-input bg-light p-3">
+    <div class="input-group">
+      <textarea
+        class="form-control"
+        rows="1"
+        [(ngModel)]="message"
+        placeholder="Type your message"
+      ></textarea>
+      <button
+        class="btn btn-primary ms-2"
+        (click)="sendMessage(receiverId, message)"
+      >
+        <i class="bi bi-send"></i>
+      </button>
+    </div>
+  </div>
+</div>
