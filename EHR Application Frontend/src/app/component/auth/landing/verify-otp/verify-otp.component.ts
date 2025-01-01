@@ -39,6 +39,7 @@ export class VerifyOtpComponent {
         OtpCode: otpValue,
         userName: localStorage.getItem('userName'),
       };
+      debugger;
       console.log('payload', payload);
       console.log('OTP value:', otpValue, typeof otpValue);
       this.authService.verfiOtp(payload).subscribe(

@@ -8,24 +8,28 @@ import { Observable } from 'rxjs';
 export class CommonService {
   constructor(private http: HttpClient) {}
   getAllCoutries(): Observable<any> {
-    return this.http.get('https://localhost:7059/api/dropDown/GetCountries');
+    return this.http.get(
+      'https://ehrapplication-ctbnhrgzeyductct.centralindia-01.azurewebsites.net/api/dropDown/GetCountries'
+    );
   }
   getAllStateByCountryId(countryId: number): Observable<any> {
     return this.http.get(
-      `https://localhost:7059/api/dropDown/GetStatesByCountry/${countryId}`
+      `https://ehrapplication-ctbnhrgzeyductct.centralindia-01.azurewebsites.net/api/dropDown/GetStatesByCountry/${countryId}`
     );
   }
   getAllCityByStateId(stateId: number): Observable<any> {
     return this.http.get(
-      `https://localhost:7059/api/dropDown/GetCityByState/${stateId}`
+      `https://ehrapplication-ctbnhrgzeyductct.centralindia-01.azurewebsites.net/api/dropDown/GetCityByState/${stateId}`
     );
   }
   getAllSpecialisation(): Observable<any> {
-    return this.http.get('https://localhost:7059/api/Appointment');
+    return this.http.get(
+      'https://ehrapplication-ctbnhrgzeyductct.centralindia-01.azurewebsites.net/api/Appointment'
+    );
   }
   getProviderBySpecialisation(specialisationId: any): Observable<any> {
     return this.http.get(
-      `https://localhost:7059/api/Appointment/getSpecilisationById/${specialisationId}`
+      `https://ehrapplication-ctbnhrgzeyductct.centralindia-01.azurewebsites.net/api/Appointment/getSpecilisationById/${specialisationId}`
     );
   }
 }

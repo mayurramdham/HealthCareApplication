@@ -22,6 +22,7 @@ import { AppointmentService } from '../../../core/auth/appointment.service';
 import { ToasterService } from '../../../core/utility/toaster.service';
 import { JwtService } from '../../../core/utility/jwt.service';
 import { AngularStripeService } from '@fireflysemantics/angular-stripe-service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-appointment',
@@ -85,7 +86,7 @@ export class AppointmentComponent implements OnInit, AfterViewInit {
       this.stripe = stripe;
       const elements = stripe.elements();
       this.cardNumberElement = elements.create('cardNumber', {
-        placeholder: 'Card Number',
+        placeholder: '4242424242424242',
       });
       this.cardExpiryElement = elements.create('cardExpiry', {
         placeholder: 'MM/YY',
@@ -139,7 +140,7 @@ export class AppointmentComponent implements OnInit, AfterViewInit {
 
   resetAppointmentForm() {
     this.appointmentForm = this.fb.group({
-      specializationId: [0, Validators.required],
+      specialisationId: [0, Validators.required],
       providerId: ['', [Validators.required]],
       appointmentDate: ['', [Validators.required]],
       appointmentTime: ['', [Validators.required]],
@@ -174,6 +175,43 @@ export class AppointmentComponent implements OnInit, AfterViewInit {
     this.updateMinTime(initialDate);
   }
 
+  // BookAppointment() {
+  //   if (this.appointmentForm.invalid) {
+  //     return;
+  //   }
+
+  //   const payload = {
+  //     providerId: this.appointmentForm.get('providerId')?.value,
+  //     specialisationId: 1,
+  //     patientId: this.jwtService.getUserId(),
+  //     appointmentDate: this.appointmentForm.get('appointmentDate')?.value,
+  //     appointmentTime: this.appointmentForm.get('appointmentTime')?.value,
+  //     chiefComplaint: this.appointmentForm.get('chiefComplaint')?.value,
+  //     amount: this.appointmentForm.get('fees')?.value,
+  //     customerEmail: this.jwtService.getEmail(),
+  //     customerName: this.jwtService.getFirstName(),
+  //     sourceToken: this.stripeToken.id.toString(),
+  //   };
+  //   this.isLoading = true;
+  //   console.log('payload', payload);
+  //   this.appointmentService.addPayment(payload).subscribe({
+  //     next: (response) => {
+  //       if (response) {
+  //         this.toasterService.showSuccess('Payment Done Successfully');
+  //         this.closeModal();
+  //         this.isLoading = false;
+  //         this.resetAppointmentForm();
+  //       } else {
+  //         this.isLoading = false;
+  //         this.toasterService.showSuccess('error at payment');
+  //       }
+  //     },
+  //     error: (err: Error) => {
+  //       this.toasterService.showError('unable to book appointment');
+  //       this.isLoading = false;
+  //     },
+  //   });
+  // }
   BookAppointment() {
     if (this.appointmentForm.invalid) {
       return;
@@ -191,22 +229,37 @@ export class AppointmentComponent implements OnInit, AfterViewInit {
       customerName: this.jwtService.getFirstName(),
       sourceToken: this.stripeToken.id.toString(),
     };
+
     this.isLoading = true;
+    console.log('payload', payload);
 
     this.appointmentService.addPayment(payload).subscribe({
       next: (response) => {
         if (response) {
-          this.resetAppointmentForm();
-          this.toasterService.showSuccess('Payment Done Successfully');
-          this.closeModal();
+          Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: 'Appointment Booked Successfully',
+          }).then(() => {
+            this.closeModal();
+            this.resetAppointmentForm();
+          });
           this.isLoading = false;
         } else {
           this.isLoading = false;
-          this.toasterService.showSuccess('error at payment');
+          Swal.fire({
+            icon: 'error',
+            title: 'Error',
+            text: 'Error at Booking Appointment',
+          });
         }
       },
       error: (err: Error) => {
-        this.toasterService.showError('unable to book appointment');
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Unable to book appointment',
+        });
         this.isLoading = false;
       },
     });
@@ -235,15 +288,12 @@ export class AppointmentComponent implements OnInit, AfterViewInit {
 
   onChangeProvider(event: Event) {
     const providerId = Number((event.target as HTMLSelectElement).value);
-    console.log('provioderfees', this.providers);
-    console.log('providerId', providerId);
     const provider = this.providers?.find((p) => p.id === providerId);
 
     if (provider) {
       this.fee = provider.visitingCharge;
       this.appointmentForm.get('fees')?.setValue(provider.visitingCharge);
     }
-    console.log('providerId', this.fee);
   }
 
   getAllProvider(currentUserType: any) {
@@ -252,7 +302,6 @@ export class AppointmentComponent implements OnInit, AfterViewInit {
       next: (response) => {
         if (response.status == 200) {
           this.providers = response.data;
-          console.log('userTyepData', this.providers);
         }
       },
     });
@@ -263,7 +312,7 @@ export class AppointmentComponent implements OnInit, AfterViewInit {
       next: (response) => {
         if (response.status == 200) {
           this.specialities = response.data;
-          console.log('specility', this.specialities);
+          console.log('specialities data', this.specialities);
         } else {
           alert('response not handler properly');
         }
